@@ -1,8 +1,11 @@
-main{
-  padding-left:100px;
 
-}
 
 .container {
   padding: 60px;
+}
+
+
+body{
+  padding: 60px;
+  background-color: aquamarine;
 }

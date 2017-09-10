@@ -1,0 +1,290 @@
+*{
+/*   border: solid 1px;  */
+  vertical-align: top;
+  position: relative;
+  color: rgba(0,0,0,0.75);
+  letter-spacing: 2.5px;
+  line-height: 25px;
+}
+
+html.body{
+  width: 100%; height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: #E0E0E0;
+  box-sizing: border-box;
+}
+
+.a4{
+  width: 1000px;
+  height: 1100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #FCFCFC;
+  box-shadow: 0px 25px 15px -20px;
+  border-radius: 5px;
+}
+
+.left,.right{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.left{
+  width: 30%;
+  height: 1100px;
+  background-color: #D3CCCA;
+  margin-left: 33px;
+  float: left;
+}
+
+.right{
+  width: 60%;
+  height: 1100px;
+  margin-right: 33px;
+  float: right;
+}
+
+.ltop{
+  height: 300px;
+}
+
+.l1{
+  height: 430px;
+}
+
+.l1 p{
+  padding:20px;
+}
+
+.circle{
+  height:200px;
+  width:200px;
+  border-radius: 100%;
+  position: absolute;
+  margin: 50px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.l2{
+  height: 250px;
+}
+
+.f{
+  position: absolute;
+  font-size: 50px;
+  font-weight: 900;
+  color: #FCFCFC;
+  background-color: #7373B9;
+  border-radius: 10px;
+  padding: 13px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.l{
+  position: absolute;
+  font-size: 50px;
+  font-weight: 900;
+  color: #FCFCFC;
+  background-color: #FF8F59;
+  border-radius: 10px;
+  padding: 13px;
+  padding-left: 11px;
+  padding-right: 10px;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.m{
+  position: absolute;
+  font-size: 50px;
+  font-weight: 900;
+  color: #FCFCFC;
+  background-color: #FF5151	;
+  border-radius: 10px;
+  padding: 13px;
+  padding-left: 3px;
+  padding-right: 0px;
+  margin-left: 210px;
+  margin-top: 20px;
+}
+
+.rtop{
+  height: 280px;
+  background-color: #595459;
+  margin-top: 0px;
+  padding: 40px;
+  box-sizing: border-box;
+  color: #EAC100;
+  background-color: 
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+.name{
+  font-size: 70px;
+  color: black;
+  padding-top: 30px;
+  line-height: 70px;
+
+}
+
+.square1{
+  position:absolute;
+  border: solid 1px #EAC100	;
+  transform: rotate(45deg);
+  border-radius: 5px;
+  width: 350px; height: 350px;
+  left: 122px; top: -40px;
+  background-color:rgba(252, 252, 252,0.2);
+}
+
+.rtop span{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(252, 252, 252,0.8);
+  letter-spacing: 25px;
+  line-height: 50px;
+  left: 140px;
+  top: 100px;
+}
+
+.r1{
+  height: 400px;
+}
+
+.exp{
+  border-left: solid 10px #595459;
+  height: 310px; width: 550px;
+  margin-top: 30px;
+  float: right;
+  box-sizing: border-box;
+  padding-left: 70px;
+  padding-top: 2px
+}
+
+.exp1,.exp2,.exp3 {
+  font-size: 18px;
+  border-bottom: solid 2px #595459;
+  padding-bottom: 5px;
+  width: 410px;
+}
+.exp2{
+  margin-top: 20px;
+}
+.exp3{
+  margin-top: 20px;
+}
+
+.line1,.line2,.line3{
+  position: absolute;
+  border: solid 1px #595459;
+  width: 60px;
+  transform: rotate(25deg);
+  left: 72px; top: 95px;
+  }
+.line2{
+  left: 72px; top:196px;
+}
+.line3{
+  left: 72px; top:299px;
+}
+
+.c1,.c2,.c3{
+  border: solid 5px #595459;
+  background-color: #FCFCFC;
+  height:15px; width:15px;
+  border-radius: 100%;
+  position: absolute;
+  left:42px; top: 60px;
+}
+.c2{
+  left:42px; top: 170px;
+}
+
+.c3{
+  left:42px; top: 270px;
+}
+
+.r2{
+  height: 400px;
+}
+
+.r2 span{
+  padding-left: 50px;
+}
+
+
+.box1,.box2,.box3,.box4,.box5 {
+  position: absolute;
+  border: solid 1px #595459;
+  border-radius: 4px;
+  height: 15px; width: 450px;
+  left: 50px;
+  box-sizing: border-box;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.inbox1,.inbox2,.inbox3,.inbox4,.inbox5{
+  background-color: #595459;
+  width: 180px; height: 9px;
+  border-radius: 3px;
+}
+
+.inbox2{
+  width: 405px;
+}
+.inbox3{
+  width: 270px;
+}
+.inbox4{
+  width: 225px;
+}
+.inbox5{
+  width: 135px;
+}
+
+.score{
+  position: absolute;
+  left: 515px;
+  font-size: 10px;
+  top: 65px;
+}
+
+h1{
+  text-align: center;
+  color: #FCFCFC;
+  background-color: #595459;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+h2{
+  text-align: center;
+  color: #FCFCFC;
+  background-color: #595459;
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+img{
+  height:220px;
+  margin-top: -20px;
+  margin-left: -10px;
+}
