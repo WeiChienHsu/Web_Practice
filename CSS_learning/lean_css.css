@@ -1,0 +1,62 @@
+h1::first-letter{
+  text-transform: uppercase;	
+  color:orange;
+  font-size: 40px;
+}
+
+h1:hover{
+ color:yellow;
+}
+
+.foo{  
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin: 30px;
+  background-color: gray;
+  min-width: 400px;
+  border-radius: 5px;
+ }
+
+.red,.ora,.yel,.gre,.blu,.whi,.pu{
+  background-color: gray;
+  min-width: 200px;
+  min-height: 40px;
+}
+
+.red:hover{
+	background-color: red;
+	margin-left: 60px;
+	margin-right: 70px;
+}
+
+.ora:hover{
+	background-color: orange;
+	margin-left: 60px;
+	margin-right: 70px;
+}
+.yel:hover{
+	background-color: yellow;
+	margin-left: 60px;
+	margin-right: 70px;
+}
+.gre:hover{
+	background-color: green;
+	margin-left: 60px;
+	margin-right: 70px;
+}
+.blu:hover{
+	background-color: blue;
+	margin-left: 60px;
+	margin-right: 70px;
+}
+.whi:hover{
+	background-color: azure;
+	margin-left: 60px;
+	margin-right: 70px;
+}
+.pu:hover{
+	background-color: purple;
+	margin-left: 60px;
+	margin-right: 70px;
+}
