@@ -1,0 +1,28 @@
+main {
+  padding: 30px;
+}
+
+.foo li {
+  border: 1px red solid;
+}
+
+.bar > li {
+  border: 1px green solid;
+} 
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+ul li::before {
+  content: "\f121";
+  font-family: FontAwesome;
+  color: green;
+  font-size: 20px;
+  margin-right: 5px;
+}

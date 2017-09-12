@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="selector2.css">
+	 <script src="https://use.fontawesome.com/1c363eed50.js"></script>
+</head>
+<body>
+
+<main>
+  <ul class='foo'>
+    <li>foo</li>
+    <li>bar</li>
+  </ul>
+  <ul>
+    <li>bizz</li>
+    <li>bang</li>
+  </ul>
+  <ol class='bar'>
+    <li>Buy fruits and vegetables.</li>
+    <li>
+      Wash fruits and vegetables.
+      <!-- Those ol section would not be selected -->
+      <ol>
+        <li>turn on faucet</li>
+        <li>put f/v under water</li>
+        <li>scrub</li>
+      </ol>
+      <!-- Those ol section would not be selected -->
+    </li>
+    <li>Eat fruits and vegetables.</li>
+    <li>Enjoy better wellbeing.</li>
+  </ol>
+</main>
+	
+</body>
+</html>
