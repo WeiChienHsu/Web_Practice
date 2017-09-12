@@ -1,1 +1,47 @@
-selector3.css
+main{
+  padding:30px;
+}
+
+blockquote{
+  padding-top: 30px;
+  max-width: 400px;
+}
+
+.author{
+  color:gray;
+  font-style: italic;
+
+}
+
+blockquote,.author{
+	padding-left: 50px;
+}
+
+.author::before{
+  content:"-";
+  margin-right: 5px;
+}
+
+blockquote::before{
+  content:"“";
+}
+
+blockquote::after{
+  content:"”";
+}
+
+a:link{
+  color:green;
+}
+
+a:visited{
+  color:red;
+}
+
+a:hover{
+  font-size: 50px;
+}
+
+a:active{
+  color:black;
+}
