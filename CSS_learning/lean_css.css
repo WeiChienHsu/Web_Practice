@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 h1::first-letter{
   text-transform: uppercase;	
   color:orange;
@@ -8,15 +12,38 @@ h1:hover{
  color:yellow;
 }
 
+header{
+font-size:30px;
+font-weight: 20px;
+}
+
+p::first-letter{
+ text-transform: lowercase;
+ color:orange;
+}
+
 .foo{  
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-  margin: 30px;
-  background-color: gray;
-  min-width: 400px;
-  border-radius: 5px;
+  width:502px;
+  padding:10px;
+  border: 1px solid green;
+  margin-bottom: 20px;
  }
+.foo:hover{
+  background-color: blue;
+}
+
+.bar{
+  display: inline-block;
+  font-size: 20px;
+  width: 250px;
+  padding:10px;
+  margin-bottom: 20px;
+  border: 1px solid green;
+}
+
+.bar:hover{
+  background-color: green;
+}
 
 .red,.ora,.yel,.gre,.blu,.whi,.pu{
   background-color: gray;
