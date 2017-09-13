@@ -1,1 +1,85 @@
-CSS_layout.css
+main {
+  padding: 30px;
+  font-size:0px;
+}
+
+.outline {
+  width: 500px; 
+  height: 340px;
+  border:1px black solid;
+}
+
+.head1{
+  height: 40px;
+  width:10%;
+  display: inline-block;
+  font-size: 0px;
+}
+
+.head2 {
+  height: 50px;
+  width:5%;
+  display: inline-block;
+  font-size: 0px;
+}
+
+.head1-4,.head1-7{
+  background-color: red;
+}
+
+.head2-5,.head2-6,.head2-7,.head2-8,.head2-9,.head2-12,.head2-13,.head2-14,.head2-15,.head2-16{
+  background-color: orange;
+}
+
+.body1{
+  height: 50px;
+  width:10%;
+  display: inline-block;
+  font-size: 0px;
+}
+
+.body1-2,.body1-3,.body1-4,.body1-5,.body1-6,.body1-7,.body1-8,.body1-9{
+  background-color: yellow;
+}
+
+.body2{
+	height: 50px;
+	width:100%;
+	background-color: green;
+}
+
+.foot1{
+  height: 50px;
+  width:10%;
+  display: inline-block;
+  font-size: 0px;	
+}
+
+.foot2{
+  height: 50px;
+  width:10%;
+  display: inline-block;
+  font-size: 0px;	
+}
+
+.foot1-2,.foot1-3,.foot1-4,.foot1-5,.foot1-6,.foot1-7,.foot1-8,.foot1-9{
+  background-color: blue;
+}
+
+.foot2-3,.foot2-4,.foot2-5,.foot2-6,.foot2-7,.foot2-8{
+  background-color: indigo;
+}
+
+.tail1{
+  height: 50px;
+  width:10%;
+  display: inline-block;
+  font-size: 0px;	
+}
+
+
+.tail1-5,.tail1-6{
+background-color: purple;
+}
+
+
