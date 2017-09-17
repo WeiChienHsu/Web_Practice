@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Forms</title>
 	<link rel="stylesheet" href="from.css">
 </head>
 <body>
@@ -13,9 +13,13 @@
 	<fieldset name="contact-info"> 
       <legend>Contact info</legend>
       <label for="first_name">First Name</label>
-      <input type="text" placeholder="WeiChien" name="first_name" id="first_name"/>
+      <input type="text" placeholder="WeiChien" name="first_name" id="first_name">
 
+      <label for="last_name">Last Name <input type="text" placeholder="Hsu" name="last_name" id="last_name"></label>
 
+      <label for="email">Email <input type="email" id="email" name="email"></label>
+
+      <label for="phone" required>Phone* <input type="tel" pattern="[0-9/-]*" name="phone" id="phone" placeholder="888-88-8888" title="A typical phone number" required></label>
 	</fieldset>
 
 </form>
