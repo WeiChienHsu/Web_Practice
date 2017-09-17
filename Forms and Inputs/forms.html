@@ -6,7 +6,6 @@
 	<link rel="stylesheet" href="from.css">
 </head>
 <body>
-
 <form action="/some-server-endpoint" method="post" class="demo_form">
 
 	<h1>How do you really feel?</h1>
@@ -24,10 +23,21 @@
 	</fieldset>
 
 	<section>
-		
-		
+		<label for="feeling" class="question">How do you feel about it?</label>
+		<select name="feeling" id="feeling" required>
+	      <option value="0" selected>Great</option>
+	      <option value="1">Normal</option>
+	      <option value="2">Not good</option>
+		</select>
+	
+		<p class="question">How do you really feel</p>
+		<label for="ans-great-1">Great <input type="radio" name="feeling_2" id="ans_great_1" value="0" checked></label>
+		<label for="ans-great-2">Normal<input type="radio" name="feeling_2" id="ans_great_2" value="1"></label>
+		<label for="ans-great-3">Not good<input type="radio" name="feeling_2" id="ans_great_3" value="2" ></label>
 	</section>
 
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
 </form>
 	
 </body>
