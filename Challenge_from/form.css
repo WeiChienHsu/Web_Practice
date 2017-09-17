@@ -32,10 +32,12 @@ fieldset {
   border-radius: 5px;
 }
 
-.title{
+legend{
   font-size:35px;
   color: gray;
   text-align: center;
+  padding-top: 32px;
+  padding-bottom: 20px;
 }
 
 .login_demo label{
@@ -54,3 +56,29 @@ fieldset {
   padding: 15px;
 }
 
+.login_demo button{
+  color: gree
+}
+
+input{
+  font-size: 20px;
+}
+
+button{
+  margin-top: 25px;
+  background-color: #0CB863;
+  color: white;
+  font-size: 20px;
+}
+
+.login_demo a{
+  display: block;
+  color:gray;
+  font-size: 12px;
+  margin-bottom: 38px;
+}
+
+
+button[type="submit"]:hover{
+  background-color: green;
+}
