@@ -1,1 +1,42 @@
-forms.css
+body{
+  background-color: navy;
+  font-size: 16px;
+  color: white;
+  padding-left: 30px;
+  font-family: 'Arvo', serif;
+}
+
+h1{
+  font-size: 24px;
+}
+
+fieldset legend{
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+.demo_form fieldset{
+  border:none;
+  padding-left: 0;
+}
+
+.demo_form label{
+  display: block;
+  padding-bottom: 20px;
+}
+
+.demo_form input, .demo_form select{
+  display: block;
+  width: 250px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.demo_form button{
+  height:30px;
+  width: 150px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+
