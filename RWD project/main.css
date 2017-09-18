@@ -1,1 +1,38 @@
-main.css
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.box{
+  border: 1px solid gray;
+  align-content: center;
+  border-radius: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.image{
+   width:100%;
+   padding-left: 10px;
+   padding-right: 10px;
+
+}
+
+.self{
+  border: 2px gray solid;
+  border-radius: 50%;
+}
+
+
+.image-content h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.image-content p {
+  margin: 0.5em 0;    
+  text-align: center;
+  font-size: 15px;
+}
