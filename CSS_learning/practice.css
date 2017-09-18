@@ -1,10 +1,26 @@
+
+
 div{
   box-sizing: border-box;
-  background-color: blue;
   border:1px solid green;
-  font-size: 20px;
-  width: 40%;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  width: 40%;
+}
+
+.big div{
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  width: 80%;
+}
+
+.try{
+  font-size: 50px;
+  background-color: yellow;
+}
+
+a>div.all{
+  width: 50%;
 }
