@@ -46,11 +46,6 @@ nav{
   top:8px;
 }
 
-{
-  font-size: 15px;
-  color:white
-
-}
 
 
 
@@ -104,6 +99,15 @@ legend{
   border-radius: 5px;
   padding: 15px;
 }
+
+.login_demo select{
+  width: 240px;
+  margin-right: 77px;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+  height: 35px;
+}
+
 
 .login_demo button{
   color: gree
