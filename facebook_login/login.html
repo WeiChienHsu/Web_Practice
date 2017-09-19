@@ -12,22 +12,22 @@
    	<p>It's free and always will be</p>
 
    	<section>
-   	<label for="fist_name" class="first_name"><input type="text" id="first_name" placeholder="First Name"></label>
+   	<label for="fist_name" class="first_name"><input type="text" id="first_name" placeholder="First Name" class="name_input"></label>
 
-   	<label for="last_name" class="last_name"><input type="text" id="last_name" placeholder="Last name"></label>
+   	<label for="last_name" class="last_name"><input type="text" id="last_name" placeholder="Last name" class="name_input"></label>
    	</section>
 	
 	<div>
-   	  <label for="email"><input type="email" id="email" placeholder="Email or mobile number" class="email"></label>
+   	  <label class="email" for="email"><input type="email" id="email" placeholder="Email or mobile number" class="email_input"></label>
 	
-	 <label for="email"><input type="email" id="email" placeholder="Re-enter Email or mobile number"></label>
+	 <label class="email" for="email"><input type="email" id="email" placeholder="Re-enter Email or mobile number" class="email_input"></label>
 
-	 <label for="password" class="email"><input type="email" id="password" placeholder="New password"></label>
+	 <label class="email" for="password" class="email"><input type="email" id="password" placeholder="New password" class="email_input"></label>
 	</div>
 	
 
 	<p class="birthday">Birthday</p>
-	<section>
+	<section >
 	<label for="year"></label>
 	<select name="year" id="year">
 		<option value="0">1992</option>
@@ -56,11 +56,16 @@
 	</select>
 	</section>
 	
-	
-   	
+	<div class="div_sexual">
+	<label for="male"><input type="radio" name="sexual" id="male">Male</label>
+	<label for="female"><input type="radio" id="female" name="sexual">Female</label>
+   	</div>
 
+	<input type="submit">
+   
    </fieldset>
   	
+
 
 
 

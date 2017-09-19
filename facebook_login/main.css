@@ -24,7 +24,7 @@ section>label{
   display: inline-block;
   height: 40px;
 }
-input{
+.email_input, .name_input{
   height: 30px;
   border-radius: 10px;
   border-style: none;
@@ -35,12 +35,12 @@ div{
     text-align: center;
 }
 
-div>label{
-  padding-bottom: 10px;
-  display: block;
+.email{
+	display: inline-block;
+	padding-bottom: 10px; 
 }
 
-div input{
+.email_input{
   width: 295px;
 }
 
@@ -50,4 +50,8 @@ section label{
 
 select{
 	width: 100px;
+}
+
+.div_sexual{
+  margin-top:20px;
 }
