@@ -1,0 +1,15 @@
+*{
+  border: 1px solid lightblue;
+}
+
+.kk li a{
+	color:red;
+}
+
+a[href="#"]{
+  background-color: black;
+}
+
+.highlight{
+	color:gray;
+}
